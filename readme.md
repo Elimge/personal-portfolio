@@ -37,6 +37,7 @@ This portfolio provides a comprehensive overview of my profile, projects, and co
 5. Use the browser's developer tools to toggle between different device sizes to see the responsive design in action.
 
 ## File Structure
+```bash 
 .
 ├── index.html
 ├── projects.html
@@ -51,7 +52,7 @@ This portfolio provides a comprehensive overview of my profile, projects, and co
 │       ├── project-inventory.jpg
 │       └── project-vapor.jpg
 └── README.md
-
+```
 ## Author
 
 *   **Miguel Canedo**
