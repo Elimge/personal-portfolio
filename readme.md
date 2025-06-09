@@ -58,7 +58,7 @@ This portfolio provides a comprehensive overview of my profile, projects, and co
 *   **Miguel Canedo**
     *   Clan: Manglar    
     *   E-mail: macv_09@hotmail.com
-    *   ID: 1.143.162.900
+    *   ID: 2.965.258.321
     *   GitHub: [@Elimge](https://github.com/Elimge) 
 
 *  **Photo Credit**
