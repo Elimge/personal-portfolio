@@ -1,27 +1,33 @@
-# Miguel Canedo - Personal Portfolio Website v3.0
+# Miguel Canedo - Personal Portfolio Website v2.5
 
-This project is a fully responsive, multi-page personal portfolio website built from the ground up to showcase my skills as a web developer. It features a modern, clean design and is optimized for a seamless user experience across desktop, tablet, and mobile devices.
+This project is a complete refactor of my personal portfolio, evolved into a modern, dynamic, and visually immersive Single-Page Application (SPA). It is built from the ground up with a mobile-first approach and advanced CSS techniques to showcase my skills as a web developer focused on clean code and premium user experience.
 
 ## Description
 
-This portfolio provides a comprehensive overview of my profile, projects, and contact information, structured across three distinct pages:
+This portfolio serves as a comprehensive digital resume, providing a seamless, one-page experience that includes:
 
-* **Homepage (index.html):** A welcoming "About Me" section that serves as an introduction, detailing my background as a Mechatronics Engineer transitioning into software development.
-* **Projects Page (projects.html):** A dedicated page showcasing three key projects in a responsive grid layout. Each project is presented on a "card" with an image, description, and a link to view more.
-* **Contact Page (contact.html):** A clean and functional contact form that allows visitors to get in touch easily.
-* A consistent, shared header and footer across all pages for a unified navigation experience.
-* Fully responsive design that adapts to different screen sizes using modern CSS techniques.
+*   A **fixed, "floating" header** with a frosted glass effect (`backdrop-filter`) that stays visible during navigation.
+*   An **immersive hero section** that fills the viewport, creating a strong first impression.
+*   A **"Projects" section** showcasing three key projects in a responsive grid layout.
+*   A clean and functional **contact form**.
+*   **Smooth, animated scrolling** between sections for fluid navigation.
+*   **Advanced hover effects** and micro-interactions on all interactive elements.
+*   A **"JavaScript-Ready" architecture** with CSS classes prepared for future scroll-triggered animations.
 
 ## Features implemented
 
-* **Multi-Page Architecture (MPA):** The site is structured into separate HTML files (index.html, projects.html, contact.html) for clear content separation.
-* **Semantic HTML5 Structure:** Utilizes modern HTML5 tags like <header>, <main>, <section>, and <article> for a well-organized, accessible, and SEO-friendly document.
-* **External CSS with Modern Practices:** All styling is handled by a single, well-structured styles.css file.
-* **Flexbox for 1D Layouts:** Strategically used for one-dimensional alignment in components like the site header and the contact form.
-* **CSS Grid for 2D Layouts:** Implemented to create the robust and responsive grid for the project showcase on the projects.html page.
-* **Responsive Design with Media Queries:** Employs breakpoints at 1024px, 768px, and 480px to restructure the layout, ensuring optimal viewing on all devices.
-* **CSS Variables (Custom Properties):** The entire color scheme and font system are managed by variables in the :root selector, making the design themeable and easy to maintain.
-* **Interactive Hover Effects:** Smooth, CSS-based transitions are applied to all interactive elements (buttons, links, project cards) to enhance the user experience.
+*   **Single-Page Architecture (SPA):** All content is consolidated into a single `index.html` file for a faster, app-like user experience.
+*   **Semantic HTML5 Structure:** Employs modern HTML5 tags (`<header>`, `<main>`, `<section>`, `<article>`) for a well-organized, accessible, and SEO-friendly document.
+*   **Advanced CSS & Modern Practices:**
+    *   **Flexbox for 1D Layouts:** Used for aligning components like the site header.
+    *   **CSS Grid for 2D Layouts:** Implemented to create the robust and responsive grid for the project showcase.
+    *   **Responsive Design with Media Queries:** Employs breakpoints at `1024px`, `768px`, and `480px` to ensure a flawless experience on all devices.
+    *   **CSS Variables:** The entire theme is managed by custom properties in `:root` for consistency and easy maintenance.
+    *   **"Sticky Footer" Implementation:** Uses Flexbox on the `body` to ensure the footer always stays at the bottom of the viewport, even on short content screens.
+*   **Enhanced User Experience (UX):**
+    *   **Fixed Header with `backdrop-filter`:** Creates a modern, translucent effect.
+    *   **Advanced Hover Effects:** Smooth, CSS-based transitions are applied to all interactive elements, including a card hover that affects child elements.
+*   **JavaScript-Ready:** The CSS includes prepared classes (`.reveal-on-scroll`) to easily implement scroll-triggered animations in the future.
 
 ## Technologies Used
 
@@ -30,24 +36,23 @@ This portfolio provides a comprehensive overview of my profile, projects, and co
 
 ## How to View
 
-1. Download or clone the project files.
-2. Ensure the assets/ folder (containing css/ and img/) is present in the same directory as the HTML files.
-3. Open index.html in any modern web browser (Chrome, Firefox, Edge, etc.).
-4. Navigate between the "About", "Projects", and "Contact" pages using the main navigation.
-5. Use the browser's developer tools to toggle between different device sizes to see the responsive design in action.
+1.  Download or clone the project files.
+2.  Ensure the `assets/` folder (containing `css/` and `img/`) is present in the same directory as `index.html`.
+3.  Open `index.html` in any modern web browser (Chrome, Firefox, Edge, etc.).
+4.  Scroll or use the navigation links to move smoothly between sections.
+5.  Use the browser's developer tools to toggle between different device sizes to see the responsive design in action.
 
 ## File Structure
 ```bash 
 .
 ├── index.html
-├── projects.html
-├── contact.html
 ├── assets/
 │   ├── css/
 │   │   └── styles.css
 │   └── img/
 │       ├── logo.png
 │       ├── profile-image.jpg
+│       ├── profile-image.webp
 │       ├── project-finance.jpeg
 │       ├── project-inventory.jpg
 │       └── project-vapor.jpg
@@ -56,10 +61,9 @@ This portfolio provides a comprehensive overview of my profile, projects, and co
 ## Author
 
 *   **Miguel Canedo**
-    *   Clan: Manglar    
     *   E-mail: macv_09@hotmail.com
-    *   ID: 2.965.258.321
     *   GitHub: [@Elimge](https://github.com/Elimge) 
 
 *  **Photo Credit**
     *   Images sourced from royalty-free stock photo websites.
+    *   Profile picture by **Nelson Salcedo**. ([@JuiceHitCoder](https://github.com/JuiceHitCoder))

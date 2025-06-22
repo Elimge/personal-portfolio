@@ -23,9 +23,9 @@
             </div>
             <nav class="main-nav">
                 <ul>
-                    <li><a href="index.html">About</a></li>       <!-- Links to the main page -->
-                    <li><a href="projects.html">Projects</a></li> <!-- Links to the projects page -->
-                    <li><a href="contact.html">Contact</a></li>  <!-- Links to the contact page -->
+                    <li><a href="#about">About</a></li>       <!-- Links to the main page -->
+                    <li><a href="#projects">Projects</a></li> <!-- Links to the projects page -->
+                    <li><a href="#contact">Contact</a></li>  <!-- Links to the contact page -->
                 </ul>
             </nav>
         </header>
@@ -34,13 +34,60 @@
         <main>
             <section id="about" class="hero-section">
                 <div class="container">
-                    <img src="assets/img/profile-image.jpg" alt="Profile picture of Miguel Canedo" class="profile-pic">
-                    <h1>Mechatronics Engineer & Web Developer</h1>
-                    <p class="hero-intro">My name is Miguel Canedo, a Mechatronics Engineer from Colombia with a passion for software development and lifelong learning. With a solid foundation in engineering and a deep interest in technology, I enjoy designing and building innovative solutions that bridge the gap between hardware and software. My background in mechatronics provides me with a unique approach to problem-solving, systems thinking, and the integration of complex technologies.</p>
-                    <h3>Welcome to my personal portfolio</h3>
+                    <div class="hero-content">
+                        <picture>
+                            <source srcset="assets/img/profile-image.webp" type="image/webp">
+                            <source srcset="assets/img/profile-image.jpg" type="image/jpeg">
+                            <img src="assets/img/profile-image.jpg" alt="Profile picture of Miguel Canedo" class="profile-pic">
+                        </picture>
+                        <h1>Mechatronics Engineer & Web Developer</h1>
+                        <p class="hero-intro">Translating the logic of machines into the language of software.<br>
+                        From PLC systems to APIs, my passion is creating elegant solutions for complex problems.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="projects-section">
+                <div class="container">
+                    <h2>My Projects</h2>
+                    <div class="projects-grid">
+                        <!-- Project 1 -->
+                        <article class="project-card">
+                            <img src="assets/img/project-inventory.jpg" alt="Inventory management system interface">
+                            <h3>Inventory Manager</h3>
+                            <p>An efficient inventory management system to help small businesses track stock and streamline processes.</p>
+                            <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">View Project →</a>
+                        </article>
+                        <!-- Project 2 -->
+                        <article class="project-card">
+                            <img src="assets/img/project-finance.jpeg" alt="Personal finance calculator app">
+                            <h3>Personal Finance Calculator</h3>
+                            <p>An agile financial calculator to help users manage personal finances by tracking income and expenses.</p>
+                            <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">View Project →</a>
+                        </article>
+                        <!-- Project 3 -->
+                        <article class="project-card">
+                            <img src="assets/img/project-vapor.jpg" alt="Diagram of a thermodynamic system">
+                            <h3>Steam Quality Calculator</h3>
+                            <p>A tool to determine steam quality and phase within a thermodynamic system for industrial applications.</p>
+                            <a href="https://github.com/Elimge/calculadora-calidad-vapor" class="project-link" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+                        </article>
+                    </div>
                 </div>
             </section>
             
+            <section id="contact" class="contact-section">
+                <div class="container">
+                    <h2>Get in Touch</h2>
+                    <p>Have a question or want to work together? Leave me a message!</p>
+                    <form class="contact-form">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </section>
         </main>
 
         <!-- Footer Section: Credits and social media links -->
