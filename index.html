@@ -39,9 +39,14 @@
             <!-- Hero Section: Includes an introduction about me -->
             <section id="about" class="hero-section">
                 <div class="container">
-                    <img src="assets/img/profile-image.jpg" alt="Profile picture of Miguel Canedo" class="profile-pic">
+                    <picture>
+                        <source srcset="assets/img/profile-image.webp" type="image/webp">
+                        <source srcset="assets/img/profile-image.jpg" type="image/jpeg">
+                        <img src="assets/img/profile-image.jpg" alt="Profile picture of Miguel Canedo" class="profile-pic">
+                    </picture>
                     <h1>Mechatronics Engineer & Web Developer</h1>
-                    <p class="hero-intro">I build innovative solutions that bridge the gap between hardware and software. Welcome to my personal portfolio.</p>
+                    <p class="hero-intro">Translating the logic of machines into the language of software.<br>
+                    From PLC systems to APIs, my passion is creating elegant solutions for complex problems.</p>
                 </div>
             </section>
 
@@ -80,7 +85,7 @@
             <!-- Contact Section: Provides a form for visitors -->
             <section id="contact" class="contact-section">
                 <div class="container">
-                    <h2>Contact</h2>
+                    <h2>Get in Touch</h2>
                     <p>Have a question or want to work together? Leave me a message!</p>
                     <form class="contact-form">
                         <input type="text" name="name" placeholder="Your Name" required>

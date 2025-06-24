@@ -1,7 +1,12 @@
 /* ==========================================================================
    1. CSS VARIABLES & THEME
    ========================================================================== */
-   
+    /*
+    * Defines the core design tokens (theme) for the entire site.
+    * Using CSS variables ensures brand consistency and makes future
+    * style updates efficient and easy to manage.
+    */
+
    :root {
     --primary-color: #3498db;   
     --secondary-color: #2980b9; 
@@ -36,6 +41,7 @@ body {
     color: var(--text-color);
 }
 
+/* Ensures images are responsive and scale down correctly. */
 img {
     max-width: 100%;
     height: auto;
@@ -71,6 +77,9 @@ h2 {
 /* ==========================================================================
    3. HEADER & NAVIGATION
    ========================================================================== */
+    /*
+    * The main site header, styled using Flexbox for alignment.
+    */
 
 .site-header {
     display: flex;
@@ -142,6 +151,10 @@ h2 {
     background-color: var(--light-bg);
 }
 
+/*
+ * The main projects grid container.
+ * CSS Grid is used here for two-dimensional layout.
+*/
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -159,8 +172,13 @@ h2 {
 }
 
 .project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.project-card:hover .project-link {
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
 }
 
 .project-card img {
@@ -187,6 +205,7 @@ h2 {
     background-color: var(--light-bg);
     text-align: right;
     font-weight: 700;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* ==========================================================================
