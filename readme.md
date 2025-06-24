@@ -1,4 +1,4 @@
-# Miguel Canedo - Personal Portfolio Website (Enhanced with CSS Techniques)
+# Miguel Canedo - Personal Portfolio Website 
 
 This project is a single-page personal portfolio website, initially built with HTML and internal CSS, and subsequently enhanced by refactoring CSS into an external stylesheet and applying advanced CSS techniques. It showcases my profile, skills, and projects with a focus on clean design, semantic structure, and engaging visual effects.
 
@@ -59,3 +59,4 @@ This portfolio provides an overview of Miguel Canedo, featuring:
 ## Photo Credit
 
 *   Profile picture by **Nelson Salcedo**.
+## On Construction
