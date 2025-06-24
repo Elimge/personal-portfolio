@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Metadata Block -->
+        <meta name="description" content="Personal portfolio of Miguel Canedo, a Mechatronics Engineer and Web Developer.">
+        <meta name="keywords" content="HTML, CSS, Portfolio, Developer, Miguel Canedo, Mechatronics">
+        <meta name="author" content="Miguel Canedo">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Google Fonts Import -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+        <!-- Stylesheet Link -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Miguel Canedo - Personal Portfolio</title>
+    </head>
+    <body>
+        <!-- Header Section: Contains the logo/name and main navigation menu -->
+        <header class="site-header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/img/logo.png" alt="Miguel Canedo logo">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Content Area -->
+        <main>
+            <!-- Hero Section: Includes an introduction about me -->
+            <section id="about" class="hero-section">
+                <div class="container">
+                    <img src="assets/img/profile-image.jpg" alt="Profile picture of Miguel Canedo" class="profile-pic">
+                    <h1>Mechatronics Engineer & Web Developer</h1>
+                    <p class="hero-intro">I build innovative solutions that bridge the gap between hardware and software. Welcome to my personal portfolio.</p>
+                </div>
+            </section>
+
+            <!-- Projects Section: Showcase of completed projects -->
+            <section id="projects" class="projects-section">
+                <div class="container">
+                    <h2>My Projects</h2>
+                    <div class="projects-grid">
+                        <!-- Project 1 -->
+                        <article class="project-card">
+                            <img src="assets/img/project-inventory.jpg" alt="Inventory management system interface">
+                            <h3>Inventory Manager</h3>
+                            <p>An efficient inventory management system to help small businesses track stock and streamline processes.</p>
+                            <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">View Project →</a>
+                        </article>
+
+                        <!-- Project 2 -->
+                        <article class="project-card">
+                            <img src="assets/img/project-finance.jpeg" alt="Personal finance calculator app">
+                            <h3>Personal Finance Calculator</h3>
+                            <p>An agile financial calculator to help users manage personal finances by tracking income and expenses.</p>
+                            <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">View Project →</a>
+                        </article>
+                        
+                        <!-- Project 3 -->
+                        <article class="project-card">
+                            <img src="assets/img/project-vapor.jpg" alt="Diagram of a thermodynamic system">
+                            <h3>Steam Quality Calculator</h3>
+                            <p>A tool to determine steam quality and phase within a thermodynamic system for industrial applications.</p>
+                            <a href="https://github.com/Elimge/calculadora-calidad-vapor" class="project-link" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section: Provides a form for visitors -->
+            <section id="contact" class="contact-section">
+                <div class="container">
+                    <h2>Contact</h2>
+                    <p>Have a question or want to work together? Leave me a message!</p>
+                    <form class="contact-form">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer Section: Credits and social media links -->
+        <footer class="site-footer">
+            <p>Developed by Miguel Canedo - 2025</p>
+            <p>Find me on <a href="https://github.com/Elimge" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+        </footer>
+    </body>
+</html>
