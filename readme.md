@@ -39,6 +39,7 @@ This portfolio provides an overview of Miguel Canedo, featuring:
 3.  Open `index.html` in any modern web browser (Chrome, Firefox, Edge, etc.).
 
 ## File Structure
+``` bash
 .
 ├── index.html
 ├── assets/
@@ -48,6 +49,7 @@ This portfolio provides an overview of Miguel Canedo, featuring:
 │ ├── profile-image.jpg
 │ └── project-vapor.jpg
 └── README.md
+```
 
 ## Author
 
